@@ -19,13 +19,19 @@ export const OverviewTab: React.FC = () => {
   const unappliedStrategies = strategies.filter((s) => !s.applied);
   const topStrategy = unappliedStrategies.length > 0 ? unappliedStrategies[0] : null;
 
+  const currentHour = new Date().getHours();
+  let timeOfDay = 'Night';
+  if (currentHour >= 5 && currentHour < 12) timeOfDay = 'Morning';
+  else if (currentHour >= 12 && currentHour < 17) timeOfDay = 'Afternoon';
+  else if (currentHour >= 17 && currentHour < 21) timeOfDay = 'Evening';
+
   return (
     <div className="space-y-[44px] animate-in fade-in duration-300 pb-12">
       {/* 1. Page Intro */}
       <section className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
         <div>
           <h1 className="text-[clamp(30px,4vw,49px)] font-bold tracking-tight text-[var(--color-ink)] font-display leading-[1.1] mb-2">
-            Morning peak monitoring.
+            {timeOfDay} peak monitoring.
           </h1>
           <p className="text-[14px] text-[var(--color-muted)] font-normal max-w-2xl">
             Live telemetry across 4 districts. The network is absorbing the commuter surge.

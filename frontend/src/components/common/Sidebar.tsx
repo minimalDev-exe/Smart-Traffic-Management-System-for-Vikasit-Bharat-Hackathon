@@ -4,7 +4,6 @@ import {
   Map,
   BrainCircuit,
   TrafficCone,
-  Settings,
   HelpCircle,
 } from 'lucide-react';
 import { useSimulationStore } from '../../store/useSimulationStore';
@@ -79,14 +78,7 @@ export const Sidebar: React.FC = () => {
           )}
           {!isSidebarCollapsed && <span className="truncate font-semibold">{isDarkMode ? 'Light Mode' : 'Dark Mode'}</span>}
         </button>
-        <button
-          className="w-full flex items-center gap-3 px-3 py-2 rounded-[4px] text-[13px] font-display transition-all cursor-pointer hover:bg-[var(--color-paper-2)] hover:translate-x-[2px] text-[var(--color-ink)]"
-          title="Settings"
-          style={{ borderLeftColor: 'transparent', borderLeftWidth: '3px', borderLeftStyle: 'solid' }}
-        >
-          <Settings className="w-4 h-4 shrink-0 text-[var(--color-muted)]" />
-          {!isSidebarCollapsed && <span className="truncate font-semibold">Settings</span>}
-        </button>
+
         <button
           onClick={() => window.location.href = '/support'}
           className="w-full flex items-center gap-3 px-3 py-2 rounded-[4px] text-[13px] font-display transition-all cursor-pointer hover:bg-[var(--color-paper-2)] hover:translate-x-[2px] text-[var(--color-ink)]"

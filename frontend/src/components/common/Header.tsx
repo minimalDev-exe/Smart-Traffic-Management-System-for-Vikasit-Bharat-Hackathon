@@ -42,9 +42,6 @@ export const Header: React.FC = () => {
 
       {/* Center: Context */}
       <div className="hidden md:flex flex-1 justify-center">
-        <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-widest text-[var(--color-muted)]">
-          <span>Workspace &gt; {activeTabName}</span>
-        </div>
       </div>
 
       {/* Right: Time, Operator */}

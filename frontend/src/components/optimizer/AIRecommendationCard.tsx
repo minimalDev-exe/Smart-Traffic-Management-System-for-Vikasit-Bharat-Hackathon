@@ -17,7 +17,7 @@ export const AIRecommendationCard: React.FC<{ strategy: AIStrategy }> = ({ strat
           <h3 className="text-[16px] font-bold font-display text-[var(--color-ink)]">{strategy.title}</h3>
         </div>
         {isApplied ? (
-          <button onClick={() => unapplyStrategy(strategy.id)} className="px-3 py-1.5 bg-white border border-[var(--border)] text-[12px] font-display cursor-pointer rounded-[4px]">
+          <button onClick={() => unapplyStrategy(strategy.id)} className="px-3 py-1.5 bg-[var(--color-paper)] hover:bg-[var(--color-paper-2)] border border-[var(--border)] text-[var(--color-ink)] text-[12px] font-display cursor-pointer rounded-[4px] transition-colors">
             Revert
           </button>
         ) : (

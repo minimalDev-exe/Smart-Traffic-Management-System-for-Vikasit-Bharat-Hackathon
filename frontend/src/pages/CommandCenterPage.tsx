@@ -37,7 +37,7 @@ export const CommandCenterPage: React.FC = () => {
   }, [simState, tick]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[var(--color-paper)] text-[var(--color-ink)]">
+    <div className="h-screen flex flex-col bg-[var(--color-paper)] text-[var(--color-ink)] overflow-hidden">
       {/* Header */}
       <Header />
 

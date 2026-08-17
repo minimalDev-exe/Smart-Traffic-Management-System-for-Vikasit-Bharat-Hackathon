@@ -20,7 +20,7 @@ export const LiveMapTab: React.FC = () => {
   const selectedAuthority = authorities.find((a) => a.id === selectedAuthorityId);
 
   return (
-    <div className="space-y-[44px] animate-in fade-in duration-300 h-full flex flex-col">
+    <div className="space-y-[44px] animate-in fade-in duration-300 pb-12 flex flex-col">
       <section className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 shrink-0">
         <div>
           <h2 className="text-[20px] font-bold font-display text-[var(--color-ink)] mb-2">
@@ -45,9 +45,7 @@ export const LiveMapTab: React.FC = () => {
         </section>
       )}
 
-      <div className="flex-1 min-h-[500px] border border-[var(--border)] rounded-[4px] overflow-hidden">
-        <TrafficMap />
-      </div>
+      <TrafficMap className="w-full h-[70vh] min-h-[500px]" />
     </div>
   );
 };

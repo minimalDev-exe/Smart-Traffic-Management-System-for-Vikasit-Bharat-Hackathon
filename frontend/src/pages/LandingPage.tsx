@@ -29,12 +29,7 @@ export const LandingPage: React.FC = () => {
         </div>
         
         <div className="flex items-center gap-6">
-          <Link
-            to="/register"
-            className="text-[13px] font-bold text-[var(--color-ink)] hover:text-[var(--color-petrol)] transition-all font-display tracking-wide"
-          >
-            Team registration
-          </Link>
+
           <button
             onClick={handleLaunchSimulation}
             className="text-[13px] font-bold text-[var(--color-petrol)] hover:opacity-80 transition-all font-display flex items-center gap-1 group cursor-pointer"
