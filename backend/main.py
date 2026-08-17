@@ -11,7 +11,7 @@ from .routers import (
 )
 
 app = FastAPI(
-    title="RoadFlow Smart City Traffic Management API",
+    title="SadakSense Smart City Traffic Management API",
     description="Backend API for Smart City Traffic Management and Simulation (Manthan 4 Yuva Hackathon Submission)",
     version="1.0.0"
 )
@@ -38,7 +38,7 @@ app.include_router(registration.router)
 def read_root():
     return {
         "status": "online",
-        "service": "RoadFlow Traffic Management Platform API",
+        "service": "SadakSense Traffic Management Platform API",
         "version": "1.0.0",
         "theme": "Smart City",
         "problem_statement": "Uneven distribution of traffic over planning authorities' jurisdictions"

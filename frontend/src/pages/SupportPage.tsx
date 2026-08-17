@@ -29,7 +29,7 @@ export const SupportPage: React.FC = () => {
               <Mail className="w-6 h-6 text-[var(--color-petrol)] shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold text-[15px]">Email Support</h3>
-                <p className="text-[14px] text-[var(--color-muted)] font-mono mt-1">support@roadflow.ai</p>
+                <p className="text-[14px] text-[var(--color-muted)] font-mono mt-1">support@sadaksense.ai</p>
                 <p className="text-[13px] text-[var(--color-muted)] mt-1">Response time: &lt; 2 hours</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ export const SupportPage: React.FC = () => {
               <Phone className="w-6 h-6 text-[var(--color-rust)] shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold text-[15px]">Emergency Hotline</h3>
-                <p className="text-[14px] text-[var(--color-muted)] font-mono mt-1">1-800-ROADFLOW</p>
+                <p className="text-[14px] text-[var(--color-muted)] font-mono mt-1">1-800-SADAKSENSE</p>
                 <p className="text-[13px] text-[var(--color-muted)] mt-1">24/7 Priority line for critical system failures</p>
               </div>
             </div>
@@ -74,7 +74,7 @@ export const SupportPage: React.FC = () => {
 
         {/* Footer */}
         <div className="mt-12 text-center text-[13px] text-[var(--color-muted)] font-mono">
-          RoadFlow System v2.1.4 • Datacenter: Mumbai (AP-South-1)
+          SadakSense System v2.1.4 • Datacenter: Mumbai (AP-South-1)
         </div>
       </div>
     </div>

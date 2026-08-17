@@ -264,7 +264,7 @@ export const useRegistrationStore = create<RegistrationState>()(
       },
     }),
     {
-      name: 'roadflow_registration_storage',
+      name: 'sadaksense_registration_storage',
     }
   )
 );

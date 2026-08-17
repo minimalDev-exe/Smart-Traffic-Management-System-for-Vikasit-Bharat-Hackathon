@@ -10,10 +10,10 @@ import {
 import { useSimulationStore } from '../../store/useSimulationStore';
 
 export const SIDEBAR_ITEMS = [
-  { id: 'overview', label: '01 Overview', icon: LayoutDashboard },
-  { id: 'map', label: '02 Live map', icon: Map },
-  { id: 'optimizer', label: '03 Optimizer', icon: BrainCircuit },
-  { id: 'signals', label: '04 Signals', icon: TrafficCone },
+  { id: 'overview', label: 'Overview', icon: LayoutDashboard },
+  { id: 'map', label: 'Live map', icon: Map },
+  { id: 'optimizer', label: 'Optimizer', icon: BrainCircuit },
+  { id: 'signals', label: 'Signals', icon: TrafficCone },
 ];
 
 export const Sidebar: React.FC = () => {

@@ -1,8 +1,8 @@
-# RoadFlow UI/UX Style Guide
+# SadakSense UI/UX Style Guide
 
 ## Antigravity IDE Handoff Specification
 
-**Product:** RoadFlow  
+**Product:** SadakSense  
 **Product type:** Urban mobility intelligence and traffic operations command center  
 **Design direction:** Signal Atlas  
 **Primary audience:** City traffic operators, mobility planners, control-room leads, and smart-city analysts  
@@ -12,7 +12,7 @@
 
 ## 1. Product Experience Summary
 
-RoadFlow is a live traffic intelligence desk. It should help an operator answer three questions immediately:
+SadakSense is a live traffic intelligence desk. It should help an operator answer three questions immediately:
 
 1. **Where is the network asking for attention?**
 2. **What changed recently?**
@@ -20,7 +20,7 @@ RoadFlow is a live traffic intelligence desk. It should help an operator answer 
 
 The interface should prioritize decision-making over data volume. Every element must support situational awareness, interpretation, or action. If a component does not help the operator understand the network or act on it, remove it.
 
-> RoadFlow should feel like an authored transportation intelligence system, not a collection of dashboard widgets.
+> SadakSense should feel like an authored transportation intelligence system, not a collection of dashboard widgets.
 
 The product should communicate the following qualities:
 
@@ -83,7 +83,7 @@ Use district codes, street names, timestamps, coordinates, peak-period language,
 
 ### Positioning
 
-RoadFlow is a live traffic intelligence desk for city operators who need to move from signal to decision quickly. It is different because it makes urban complexity feel composed and actionable.
+SadakSense is a live traffic intelligence desk for city operators who need to move from signal to decision quickly. It is different because it makes urban complexity feel composed and actionable.
 
 ### Personality
 
@@ -132,20 +132,20 @@ The mark should:
 
 ### Wordmark
 
-Use a tightened Space Grotesk wordmark. The “O” in ROADFLOW can be slightly squared or customized to echo a junction marker.
+Use a tightened Space Grotesk wordmark. The “O” in SADAKSENSE can be slightly squared or customized to echo a junction marker.
 
 Do not render the logo as an unstyled brand name in a default font.
 
 ### Asset references
 
-Use the following generated assets in the RoadFlow project:
+Use the following generated assets in the SadakSense project:
 
 ```text
 Logo mark:
-/manus-storage/roadflow-mark_b7af6139.png
+/manus-storage/sadaksense-mark_b7af6139.png
 
 Atlas texture:
-/manus-storage/roadflow-atlas-texture_48f4e038.png
+/manus-storage/sadaksense-atlas-texture_48f4e038.png
 ```
 
 ---
@@ -301,7 +301,7 @@ Recommended structure:
 1. Compact header with logo and “Open command center” link.
 2. Small live network eyebrow with current local time.
 3. Large headline: “Make the next move visible.”
-4. Short explanation of RoadFlow’s purpose.
+4. Short explanation of SadakSense’s purpose.
 5. One primary CTA: “Enter live workspace.”
 6. Quiet footer metadata such as network status and product label.
 
@@ -581,7 +581,7 @@ border-color: rgba(29, 36, 33, 0.13);
 
 ### Radius
 
-Use square or lightly softened corners. RoadFlow should not look like a collection of pills.
+Use square or lightly softened corners. SadakSense should not look like a collection of pills.
 
 Recommended radius range:
 
@@ -746,7 +746,7 @@ When referring to AI recommendations, explain the operational reasoning and expe
 
 ## 20. Definition of Done
 
-A RoadFlow screen is ready when:
+A SadakSense screen is ready when:
 
 - The primary operational signal is obvious within a few seconds.
 - No redundant cards or duplicate controls remain.

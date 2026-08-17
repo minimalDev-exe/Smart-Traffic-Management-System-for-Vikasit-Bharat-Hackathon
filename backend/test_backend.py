@@ -3,7 +3,7 @@ from backend.main import app
 from backend.engine.imbalance import calculate_imbalance_score
 from backend.engine.city_grid import PLANNING_AUTHORITIES
 
-print("Testing RoadFlow Backend...")
+print("Testing SadakSense Backend...")
 print(f"Title: {app.title}")
 print(f"Routes registered: {len(app.routes)}")
 

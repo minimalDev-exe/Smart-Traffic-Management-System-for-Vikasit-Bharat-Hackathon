@@ -24,7 +24,7 @@ export const LandingPage: React.FC = () => {
         <div className="flex items-center gap-3">
           <Layers className="w-6 h-6 text-[var(--color-petrol)]" />
           <span className="font-bold text-lg tracking-tight font-display">
-            ROADFLOW
+            SADAKSENSE
           </span>
         </div>
         
@@ -59,7 +59,7 @@ export const LandingPage: React.FC = () => {
         </h1>
         
         <p className="text-[16px] text-[var(--color-muted)] max-w-lg mx-auto font-normal leading-relaxed mb-12">
-          RoadFlow is a live traffic intelligence desk for city operators. Move from signal to decision quickly and balance jurisdictional bottlenecks with precision.
+          SadakSense is a live traffic intelligence desk for city operators. Move from signal to decision quickly and balance jurisdictional bottlenecks with precision.
         </p>
 
         {/* Primary CTA */}
@@ -75,7 +75,7 @@ export const LandingPage: React.FC = () => {
       {/* Footer */}
       <footer className="w-full px-8 py-6 flex items-center justify-between font-mono text-[10px] text-[var(--color-muted)] z-10 uppercase tracking-widest">
         <div>Network status: nominal</div>
-        <div>Signal Atlas / RoadFlow Platform</div>
+        <div>Signal Atlas / SadakSense Platform</div>
       </footer>
     </div>
   );

@@ -63,7 +63,7 @@ export const SignalControlPanel: React.FC = () => {
         <input
           type="range" min={15} max={90} step={1} value={tempGreen}
           onChange={(e) => setTempGreen(Number(e.target.value))}
-          className="w-full h-2 bg-[var(--border)] appearance-none cursor-pointer rounded-full"
+          className="w-full accent-[var(--color-petrol)] cursor-pointer"
         />
         <div className="flex items-center gap-4 font-mono text-[12px] text-[var(--color-muted)] pt-2">
           <span>Throughput: {predictedThroughputDelta}%</span>

@@ -1087,7 +1087,7 @@ export const useSimulationStore = create<SimulationStoreState>()(
       },
     }),
     {
-      name: 'roadflow_simulation_storage',
+      name: 'sadaksense_simulation_storage',
       partialize: (state) => ({
         isDarkMode: state.isDarkMode,
         activeTab: state.activeTab,

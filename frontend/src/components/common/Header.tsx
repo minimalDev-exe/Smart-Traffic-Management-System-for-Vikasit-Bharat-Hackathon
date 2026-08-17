@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
         <Link to="/" className="flex items-center gap-2 group">
           <Layers className="w-6 h-6 text-[var(--color-petrol)]" />
           <span className="font-bold text-lg tracking-tight font-display text-[var(--color-ink)]">
-            ROADFLOW
+            SADAKSENSE
           </span>
         </Link>
       </div>
